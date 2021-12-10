@@ -7,5 +7,4 @@ using namespace std;
 int main(){
     windowsFunction WF;
     player1 p1;
-    
 }

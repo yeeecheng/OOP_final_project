@@ -6,7 +6,11 @@ class player1{
     public:
         player1();
     private:
-        void movement();
+        void initialPosition();
+        void player1Movement();
+        int input;
+        int playerX;
+        int playerY;
 };
 
 #endif
