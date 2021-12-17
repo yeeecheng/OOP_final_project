@@ -1,10 +1,9 @@
-#include <windows.h>
+#include "Game.h"
+#include <SDL2/SDL.h>
 #include <iostream>
-#include <conio.h>
-#include "windowsFunction.h"
-#include "player1.h"
 using namespace std;
-int main(){
-    windowsFunction WF;
-    player1 p1;
+
+int main(int argc ,char* argv[]){
+    Game game;
+    return 0;
 }
